@@ -1,6 +1,13 @@
-echo "# sb-proxy" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git remote add origin https://github.com/7-xillow/sb-proxy.git
-git push -u origin master
+AK-service :
+  server:  npm run server
+   webpack:  npm run watchbuild
+HT-service: 
+   server:  npm run start
+   web[ack: npm run react-dev
+JD-service
+  server:  npm run start
+   webpack: npm run webpack
+SB-service
+   server: npm run seed
+   webpack: npm run react-dev
+    
