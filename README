@@ -4,6 +4,7 @@ AK-service :
 HT-service: 
    server:  npm run start
    web[ack: npm run react-dev
+   seed db: npm run seedDB
 JD-service
   server:  npm run start
    webpack: npm run webpack
