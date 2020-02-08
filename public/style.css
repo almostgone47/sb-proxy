@@ -1,21 +1,17 @@
+/* #components {
+  display: flex;
+  flex-direction: row;
+} */
 
-.main {
-    display: flex;
-    justify-content: space-around; 
- 
-  }
-  #photos {
-    /* position: absolute; */
-    /* left: 12%; */
-    justify-content: left;
-    height: 100%;
-    width: 2000px;
-  }
-  #summary {
-    /* position: absolute; */
-    /* justify-content: right; */
-    /* left: 56%; */
-    height: 100%;
-    width:100%;
-    margin-left: 700px;
-  }
+#Pics {
+  position: absolute;
+  left: 12%;
+  height: 100%;
+  width: 100%;
+}
+
+#summary {
+  position: relative;
+  left: 56%;
+  height: 100%;
+}
