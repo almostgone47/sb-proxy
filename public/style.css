@@ -3,7 +3,7 @@
   flex-direction: row;
 } */
 
-#Pics {
+/* #Pics {
   position: absolute;
   left: 12%;
   height: 100%;
@@ -14,4 +14,9 @@
   position: relative;
   left: 56%;
   height: 100%;
+} */
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
