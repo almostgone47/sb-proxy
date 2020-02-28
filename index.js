@@ -40,7 +40,7 @@ app.use(express.json());
 // });
 
 app.get('/listing/:id', (req, res) => {
-  axios.get('http://localhost:3001' + req.url)
+  axios.get('http://18.219.161.251:3001' + req.url)
   .then((response) => {
     res.send(response.data);
   })
@@ -50,7 +50,7 @@ app.get('/listing/:id', (req, res) => {
 });
 
 app.get('/nearbyHomes', (req, res) => {
-  axios.get('http://localhost:3001' + req.url)
+  axios.get('http://18.219.161.251:3001' + req.url)
   .then((response) => {
     res.send(response.data);
   })
@@ -58,8 +58,5 @@ app.get('/nearbyHomes', (req, res) => {
     console.log(error);
   })
 });
-
-
-
 
 app.listen(port, () => console.log(`Example app listening on port ${port}!`))
